@@ -1,0 +1,6 @@
+{
+  "name": "production",
+  "logger": {
+    "level": "warn"
+  }
+}

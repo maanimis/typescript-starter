@@ -1,0 +1,6 @@
+{
+  "name": "development",
+  "logger": {
+    "level": "debug"
+  }
+}

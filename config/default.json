@@ -1,0 +1,10 @@
+{
+  "name": "default",
+  "logger": {
+    "level": "info",
+    "dir": "./log",
+    "appLogFile": "app.log",
+    "error": "error.log",
+    "syncMode": true
+  }
+}
