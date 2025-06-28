@@ -7,12 +7,13 @@ formatting, linting, testing, configuration management, and logging.
 
 - ⚡ **TypeScript** with strict configuration
 - 🧪 **Jest** for testing (with watch and coverage support)
-- 🧹 **ESLint** + **Prettier** + **lint-staged** for clean code
+- 🧹 **ESLint** + **Prettier** + **CSpell** + **lint-staged** for clean code
 - 🧪 **husky** + **lint-staged** for pre-commit checks
 - 📦 **pnpm** as package manager
 - 🌱 **Config**-based environment management
 - 📜 **Pino** for performant logging
 - 🧾 **Zod** for schema validation
+- 🐳 **Docker** support for containerized development and deployment
 
 ---
 
@@ -36,30 +37,6 @@ pnpm install
 | `test:cov`   | Run tests with coverage report      |
 | `format`     | Format code with Prettier           |
 | `lint`       | Lint code with ESLint (auto-fix)    |
-
----
-
-## Project Structure
-
-```text
-.
-├── config/             # Environment-based configs (via `config` package)
-│   ├── default.json
-│   ├── development.json
-│   └── production.json
-├── src/                # Application source code
-│   ├── app.config.ts
-│   ├── logger/         # Pino-based logging setup
-│   │   └── index.ts
-│   └── main.ts         # Entry point
-├── test/               # Jest test files (if any)
-├── eslint.config.mjs   # ESLint configuration
-├── jest.config.js      # Jest configuration
-├── tsconfig.json       # TypeScript configuration
-├── package.json        # Project metadata and scripts
-├── README.md           # Project readme
-├── LICENSE             # MIT License
-```
 
 ---
 
