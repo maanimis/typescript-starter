@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start:dev": "cross-env NODE_ENV=development tsx --watch src/main.ts",
-    "start:prod": "pnpm run build && cross-env NODE_ENV=production node dist/main.js",
+    "start:prod": "npm run build && cross-env NODE_ENV=production node dist/main.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
